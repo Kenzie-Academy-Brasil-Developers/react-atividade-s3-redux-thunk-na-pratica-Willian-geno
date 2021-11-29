@@ -1,0 +1,53 @@
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.divComments{
+  background-color: white;
+  border: solid 2px black;
+  width: 400px;
+  height: 150px;
+
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.comment{
+  background-color: rgb(197, 193, 193);
+  margin: 5px 0;
+  border-radius: 10px;
+  padding: 0 8px;
+}
+
+input{
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  background-color: rgb(197, 193, 193);
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+button{
+  width: 120px;
+  height: 30px;
+  background-color: rgb(197, 193, 193);
+  border-radius: 10px;
+  margin-left: 10px;
+}
+
+divInput{
+
+  display: flex;
+  justify-content: space-around;
+}
